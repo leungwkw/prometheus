@@ -1,0 +1,33 @@
+{
+  "name": "prometheus",
+  "version": "1.0.0",
+  "description": "a test application for learning vital's software",
+  "private": true,
+  "scripts": {
+    "watch": "webpack --watch",
+    "server": "node server.js",
+    "start": "webpack-dev-server --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "keywords": [
+    "test",
+    "vital"
+  ],
+  "author": "William Leung",
+  "license": "ISC",
+  "devDependencies": {
+    "@webpack-cli/init": "0.0.8",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.10"
+  }
+}
